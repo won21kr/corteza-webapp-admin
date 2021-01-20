@@ -112,6 +112,13 @@ export default [
       },
 
       {
+        ...wrap(`automation`, `/automation`),
+        children: [
+          r('automation.permissions', 'permissions', 'Automation/Permissions/Index'),
+        ],
+      },
+
+      {
         ...wrap(`federation`, `/federation`),
         children: [
           combo('federation', 'nodes', { pkey: 'nodeID' }),
