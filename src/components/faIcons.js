@@ -8,7 +8,6 @@ import {
   faCogs,
   faThLarge,
   faPen,
-  faAngleDoubleLeft,
   faAngleDoubleRight,
   faPowerOff,
   faCheck,
@@ -20,6 +19,9 @@ import {
   faShareAlt,
   faExclamationTriangle,
   faFolder,
+  faAngleDoubleLeft,
+  faAngleRight,
+  faAngleLeft,
 } from '@fortawesome/free-solid-svg-icons'
 
 import {
@@ -50,4 +52,6 @@ library.add(
   faCheckCircle,
   faExclamationTriangle,
   faFolder,
+  faAngleRight,
+  faAngleLeft,
 )
